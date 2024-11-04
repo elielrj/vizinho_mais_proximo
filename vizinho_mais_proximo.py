@@ -33,7 +33,11 @@ class VizinhoMaisProximo:
         total = float(0.0)
 
         for index in range(0, self.amostra):
-            total += (math.sqrt(math.fabs(subsequencia_1[index] - subsequencia_2[index])))
+            subatracao_t1_t2 = subsequencia_1[index] - subsequencia_2[index]
+            valor_ao_quadrado = math.pow(subatracao_t1_t2,2)
+            total += valor_ao_quadrado
+
+        total = math.sqrt(total)
         return f"{total:.1f}"
 
     def exibir_matriz_de_distancias(self):

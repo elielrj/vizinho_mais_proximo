@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/vizinho_mais_proximo.iml" filepath="$PROJECT_DIR$/vizinho_mais_proximo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/vizinho_mais_proximo.iml" filepath="$PROJECT_DIR$/.idea/vizinho_mais_proximo.iml" />
     </modules>
   </component>
 </project>

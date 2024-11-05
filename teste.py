@@ -9,6 +9,4 @@ vizinhoMaisProximo.buscar_vetor_do_vizinho_mais_proximo()
 
 vizinhoMaisProximo.exibir_matriz_de_distancias()
 
-
-
-
+vizinhoMaisProximo.exibir_vetor_de_similaridade()

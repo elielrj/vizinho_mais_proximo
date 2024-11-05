@@ -54,4 +54,25 @@ class VizinhoMaisProximo:
 
         print(matriz_de_distancias)
 
+    def exibir_vetor_de_similaridade(self):
 
+        vetor_de_similaridade = []
+
+        for i in range(len(self.matriz)):
+            lista = self.matriz[i]
+            self.ordenar_lista(lista)
+            vizinho_mais_proximo = lista[1]
+            vetor_de_similaridade.append(vizinho_mais_proximo)
+
+        print(vetor_de_similaridade)
+
+    def ordenar_lista(self,lista):
+
+        quantidade = len(lista)
+
+        for i in range(0, quantidade):
+            for j in range(0, quantidade - 1):
+                if float(lista[j + 1]) < float(lista[j]):
+                    menor = lista[j + 1]
+                    lista[j + 1] = lista[j]
+                    lista[j] = menor
